@@ -1,0 +1,149 @@
+.freq-table-vis {
+  width: 80%;
+  height: 500px;
+  /*background-color: rgba(255,0,0,0.5);*/
+  background-color: white;
+  display: flex;
+
+}
+
+.freq-table-vis {
+  width: 80%;
+  height: 500px;
+  /*background-color: rgba(255,0,0,0.5);*/
+  background-color: white;
+  display: flex;
+
+}
+
+.freq-table-vis > .doc-container {
+  height: 100%;
+  width: 70%;
+  margin: 0;
+}
+
+.doc-container > .text-doc {
+  box-sizing: border-box;
+  width: 80%;
+  height: 100%;
+  overflow: auto;
+  padding: 7.06% 9.42%;
+  border: 1px solid black;
+  margin-right: 0 !important;
+  /*font-size: 0.33%;*/
+  font-size: 12px;
+}
+
+.stats-pane {
+  width: 100%;
+}
+
+.pre-text {
+  background-color: white;
+  color: black;
+}
+
+.cursor {
+  background-color: black;
+  color: white;
+}
+
+.post-text {
+  background-color: white;
+  color: lightgray;
+}
+
+.freq-node-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.freq-node {
+  padding: 0;
+  width: 150px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 2px;
+  margin: 0 2px;
+  display: flex;
+  transition: 1s;
+}
+
+.freq-node > .freq-count {
+  margin: 0;
+  width: 50%;
+  height: 100%;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background-color: lightgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.freq-node > .freq-name {
+  margin: 0;
+  width: 50%;
+  height: 100%;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  background-color: lightpink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.huff-nodes-vis {
+  width: 80%;
+  height: 700px;
+  /*background-color: rgba(200,200,200,1);*/
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.huff-tree-vis {
+  width: 80%;
+  height: 500px;
+  /*background-color: rgba(0,0,255,0.5);*/
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.sym-code-area {
+  width: 100%;
+  max-width: 789px;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.sym-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  padding-right: 8px;
+}
+
+.sym-code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.tri-doc-vis {
+  width: 80%;
+  height: 550px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}

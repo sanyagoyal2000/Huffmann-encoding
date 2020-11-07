@@ -1,0 +1,84 @@
+.docs-view {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.three-docs-view {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.half-column {
+  width: 50%;
+  height: 77.65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third-column {
+  width: 33.333333%;
+  height: 77.65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+.title-pane {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.text-doc {
+  box-sizing: border-box;
+  width: 80%;
+  height: 100%;
+  overflow: auto;
+  padding: 7.06% 9.42%;
+  border: 1px solid black;
+  margin-right: 0;
+  /*font-size: 0.33%;*/
+  font-size: 12px;
+}
+
+.bin-doc, .huff-doc {
+  font-family: 'Roboto Mono', monospace;
+  box-sizing: border-box;
+  width: 80%;
+  height: 100%;
+  overflow: auto;
+  padding: 7.06% 9.42%;
+  overflow: auto;
+  border: 1px solid black;
+  font-size: 12px;
+  /*0.38%;*/
+  word-wrap: break-word;
+}
+
+.stats-pane {
+  width: 100%;
+}
+
+.pre-text {
+  background-color: white;
+  color: black;
+}
+
+.cursor {
+  background-color: black;
+  color: white;
+}
+
+.post-text {
+  background-color: white;
+  color: lightgray;
+}

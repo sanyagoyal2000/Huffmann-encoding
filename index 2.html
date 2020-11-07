@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="./js/nav.js"></script>
+    <script src="./dist/freq_table.js"></script>
+    <script src="./dist/doc_to_huff.js"></script>
+    <script src="./dist/huff_nodes.js"></script>
+    <script src="./dist/huff_tree.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/viz.css">
+    <link rel="stylesheet" type="text/css" href="./css/nav.css">
+    <link rel="stylesheet" type="text/css" href="./css/huff.css">
+    <link rel="stylesheet" type="text/css" href="./css/docs.css">
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+
+    <title>Huffman Compression</title>
+  </head>
+  <body>
+    <div class="side-bar closed">
+      <div class="top-row">
+        <div class="close-side-bar-btn">
+          <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+      </div>
+      <ul>
+        <li>
+          <p><a href="#freq-table">Creating a Frequency Table</a></p>
+        </li>
+        <li>
+          <p><a href="#huff-tree">Building the Huffman Tree</a></p>
+        </li>
+        <li>
+          <p><a href="#encoding">Encoding</a></p>
+        </li>
+        <li>
+          <p><a href="#results">Comparing Results</a></p>
+        </li>
+      </ul>
+    </div>
+    <div class="open-side-bar-btn">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <div class="main">
+      <div class="title">Visualizing Huffman Compression</div>
+      
+      
+      <p>The following are some visualizations I created to explore the d3js library and how <a href="https://en.wikipedia.org/wiki/Huffman_coding">Huffman compression</a> works.</p>
+      <p>For the sake of simplicity, we'll use ASCII-encoded text as the subject of our compression.</p>
+      <ol>
+        <li>
+          <p><a href="#freq-table">Creating a Frequency Table</a></p>
+        </li>
+        <li>
+          <p><a href="#huff-tree">Building the Huffman Tree</a></p>
+        </li>
+        <li>
+          <p><a href="#encoding">Encoding</a></p>
+        </li>
+        <li>
+          <p><a href="#results">Comparing Results</a></p>
+        </li>
+      </ol>
+      <p>
+      </p>
+      <h1 id="freq-table"><span>1</span> Creating a Frequency Table</h1>
+      <p>
+        The first step of the encoding procedure is to build a table of weights (frequencies), for each symbol (ASCII character) in the document that we want to encode. Eventually the entries will be ordered by descending weight. The visualization below maintains the order as the weights are being counted.
+      </p>
+      <div class="freq-table-vis">
+        <div class="doc-container">
+          <div class="text-doc" id="freq-table-doc">
+          </div>
+        </div>
+        <div class="freq-node-container">
+        </div>
+      </div>
+
+      <h1 id="huff-tree"><span>2</span> Building the Huffman Tree</h1>
+      <p>
+        Next we need to construct our binary tree from our frequency table. From Wikipedia:
+      </p>
+      <ol>
+        <li><p>Create a leaf node for each symbol and add it to the priority queue.</p></li>
+        <li><p>While there is more than one node in the queue:</p>
+          <p>
+            <ol>
+              <li><p>Remove the two nodes of highest priority (lowest probability) from the queue</p></li>
+              <li><p>Create a new internal node with these two nodes as children and with probability equal to the sum of the two nodes' probabilities.</p></li>
+              <li><p>Add the new node to the queue.</p></li>
+            </ol>
+          </p>
+        <li><p>The remaining node is the root node and the tree is complete.</p></li>
+      </ol>
+      <p>
+        This part of the algorithm was particularly challenging to code using d3, because it's actually a list of trees.
+      </p>
+      <div class="huff-nodes-vis">
+        <div id="tree-container">
+          <div class="tree-translate">
+            <div id="huff-nodes">
+
+              <span class="encoding"></span>
+            </div>
+          </div>
+          <div id="huff-table">
+
+          </div>
+        </div>
+      </div>
+      <h1 id="encoding"><span>3</span> Encoding</h1>
+      <p>
+        Now we have a binary tree in which every leaf is a unique symbol from our original document. The encoding for a given symbol is determined by the path from the root to the symbol's leaf. Starting from the root, with an empty code, travelling to a left child appends a 0 to the code, and travelling to the right, a 1.
+      </p>
+      <p>
+        Note that some lower frequency symbols actually end up with longer than 8 bit encodings.
+      </p>
+      <div class="huff-tree-vis">
+        <div id="huff-tree-done">
+        </div>
+        <div class="sym-code-area">
+          <div class="sym-name">
+            Mouse over a node to see its Huffman code.
+          </div>
+          <div class="sym-code">
+
+          </div>
+        </div>
+      </div>
+      <h1 id="results"><span>4</span> Results</h1>
+      <p>
+        Now we'll encode our document with both both ASCII and our Huffman code to see how efficient our compression is. Included in the top of the Huffman document is the header, which simply lists each symbol along with its 4-byte frequency value. This overhead cost will be included in our calculation.
+      </p>
+      <div class="tri-doc-vis">
+        <div class="three-docs-view">
+          <div class="third-column">
+            <div class="text-doc" id="text-doc-third">
+            </div>
+            Characters:
+            <span class="char-count">
+              0
+            </span>
+          </div>
+          <div class="third-column">
+            <div class="bin-doc" id="bin-doc-third">
+            </div>
+            ASCII Bits:
+            <span class="bit-count">
+              0
+            </span>
+          </div>
+          <div class="third-column">
+            <div class="huff-doc" id="huff-doc-third">
+            </div>
+            Huffman Bits:
+            <span class="huff-bit-count">
+              0
+            </span>
+          </div>
+        </div>
+      </div>
+      <p>
+        With the header included, we were able to achieve <span id="compress-percent">___</span>% compression using the Huffman encoding.
+      </p>
+      <p>
+        This example was very basic, and didn't include steps such as including a pseudo EOF characters.
+      </p>
+    </div>
+  </body>
+</html>

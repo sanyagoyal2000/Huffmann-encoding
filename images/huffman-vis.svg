@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="6578px" viewBox="0 0 1024 6578" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>huffman-vis</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="408" height="528"></rect>
+        <rect id="path-2" x="0" y="0" width="408" height="2640"></rect>
+        <rect id="path-3" x="0" y="0" width="408" height="1302"></rect>
+        <rect id="path-4" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-5" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-6" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-7" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-8" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-9" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-10" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-11" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-12" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-13" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-14" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-15" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-16" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-17" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-18" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-19" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-20" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-21" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-22" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-23" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-24" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-25" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-26" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-27" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-28" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-29" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-30" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-31" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-32" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-33" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-34" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-35" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-36" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-37" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-38" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-39" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-40" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-41" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-42" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-43" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-44" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-45" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-46" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-47" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-48" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-49" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-50" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-51" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-52" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-53" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-54" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-55" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-56" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-57" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-58" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-59" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-60" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-61" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-62" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-63" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-64" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-65" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-66" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-67" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-68" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-69" x="0" y="40" width="40" height="40"></rect>
+        <rect id="path-70" x="0" y="0" width="40" height="40"></rect>
+        <rect id="path-71" x="0" y="40" width="40" height="40"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="huffman-vis">
+            <g id="text_doc" transform="translate(275.000000, 46.000000)">
+                <g id="Rectangle">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="407" height="527"></rect>
+                </g>
+                <text id="Lorem-ipsum-dolor-si" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="14" y="47">Lorem ipsum dolor sit amet, </tspan>
+                    <tspan x="14" y="69">consectetur adipisicing elit, sed </tspan>
+                    <tspan x="14" y="91">do eiusmod tempor incididunt ut </tspan>
+                    <tspan x="14" y="113">labore et dolore magna aliqua. Ut </tspan>
+                    <tspan x="14" y="135">enim ad minim veniam, quis nostrud </tspan>
+                    <tspan x="14" y="157">exercitation ullamco laboris nisi </tspan>
+                    <tspan x="14" y="179">ut aliquip ex ea commodo consequat. </tspan>
+                    <tspan x="14" y="201">Duis aute irure dolor in </tspan>
+                    <tspan x="14" y="223">reprehenderit in voluptate velit </tspan>
+                    <tspan x="14" y="245">esse cillum dolore eu fugiat nulla </tspan>
+                    <tspan x="14" y="267">pariatur. Excepteur sint occaecat </tspan>
+                    <tspan x="14" y="289">cupidatat non proident, sunt in </tspan>
+                    <tspan x="14" y="311">culpa qui officia deserunt mollit </tspan>
+                    <tspan x="14" y="333">anim id est laborum.</tspan>
+                </text>
+            </g>
+            <g id="bin_doc" transform="translate(275.000000, 702.000000)">
+                <g id="Rectangle">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="407" height="2639"></rect>
+                </g>
+                <text id="01001100-01101111-01" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="14" y="47">01001100 01101111 01110010 01100101 </tspan>
+                    <tspan x="14" y="69">01101101 00100000 01101001 01110000 </tspan>
+                    <tspan x="14" y="91">01110011 01110101 01101101 00100000 </tspan>
+                    <tspan x="14" y="113">01100100 01101111 01101100 01101111 </tspan>
+                    <tspan x="14" y="135">01110010 00100000 01110011 01101001 </tspan>
+                    <tspan x="14" y="157">01110100 00100000 01100001 01101101 </tspan>
+                    <tspan x="14" y="179">01100101 01110100 00101100 00100000 </tspan>
+                    <tspan x="14" y="201">01100011 01101111 01101110 01110011 </tspan>
+                    <tspan x="14" y="223">01100101 01100011 01110100 01100101 </tspan>
+                    <tspan x="14" y="245">01110100 01110101 01110010 00100000 </tspan>
+                    <tspan x="14" y="267">01100001 01100100 01101001 01110000 </tspan>
+                    <tspan x="14" y="289">01101001 01110011 01101001 01100011 </tspan>
+                    <tspan x="14" y="311">01101001 01101110 01100111 00100000 </tspan>
+                    <tspan x="14" y="333">01100101 01101100 01101001 01110100 </tspan>
+                    <tspan x="14" y="355">00101100 00100000 01110011 01100101 </tspan>
+                    <tspan x="14" y="377">01100100 00100000 01100100 01101111 </tspan>
+                    <tspan x="14" y="399">00100000 01100101 01101001 01110101 </tspan>
+                    <tspan x="14" y="421">01110011 01101101 01101111 01100100 </tspan>
+                    <tspan x="14" y="443">00100000 01110100 01100101 01101101 </tspan>
+                    <tspan x="14" y="465">01110000 01101111 01110010 00100000 </tspan>
+                    <tspan x="14" y="487">01101001 01101110 01100011 01101001 </tspan>
+                    <tspan x="14" y="509">01100100 01101001 01100100 01110101 </tspan>
+                    <tspan x="14" y="531">01101110 01110100 00100000 01110101 </tspan>
+                    <tspan x="14" y="553">01110100 00100000 01101100 01100001 </tspan>
+                    <tspan x="14" y="575">01100010 01101111 01110010 01100101 </tspan>
+                    <tspan x="14" y="597">00100000 01100101 01110100 00100000 </tspan>
+                    <tspan x="14" y="619">01100100 01101111 01101100 01101111 </tspan>
+                    <tspan x="14" y="641">01110010 01100101 00100000 01101101 </tspan>
+                    <tspan x="14" y="663">01100001 01100111 01101110 01100001 </tspan>
+                    <tspan x="14" y="685">00100000 01100001 01101100 01101001 </tspan>
+                    <tspan x="14" y="707">01110001 01110101 01100001 00101110 </tspan>
+                    <tspan x="14" y="729">00100000 01010101 01110100 00100000 </tspan>
+                    <tspan x="14" y="751">01100101 01101110 01101001 01101101 </tspan>
+                    <tspan x="14" y="773">00100000 01100001 01100100 00100000 </tspan>
+                    <tspan x="14" y="795">01101101 01101001 01101110 01101001 </tspan>
+                    <tspan x="14" y="817">01101101 00100000 01110110 01100101 </tspan>
+                    <tspan x="14" y="839">01101110 01101001 01100001 01101101 </tspan>
+                    <tspan x="14" y="861">00101100 00100000 01110001 01110101 </tspan>
+                    <tspan x="14" y="883">01101001 01110011 00100000 01101110 </tspan>
+                    <tspan x="14" y="905">01101111 01110011 01110100 01110010 </tspan>
+                    <tspan x="14" y="927">01110101 01100100 00100000 01100101 </tspan>
+                    <tspan x="14" y="949">01111000 01100101 01110010 01100011 </tspan>
+                    <tspan x="14" y="971">01101001 01110100 01100001 01110100 </tspan>
+                    <tspan x="14" y="993">01101001 01101111 01101110 00100000 </tspan>
+                    <tspan x="14" y="1015">01110101 01101100 01101100 01100001 </tspan>
+                    <tspan x="14" y="1037">01101101 01100011 01101111 00100000 </tspan>
+                    <tspan x="14" y="1059">01101100 01100001 01100010 01101111 </tspan>
+                    <tspan x="14" y="1081">01110010 01101001 01110011 00100000 </tspan>
+                    <tspan x="14" y="1103">01101110 01101001 01110011 01101001 </tspan>
+                    <tspan x="14" y="1125">00100000 01110101 01110100 00100000 </tspan>
+                    <tspan x="14" y="1147">01100001 01101100 01101001 01110001 </tspan>
+                    <tspan x="14" y="1169">01110101 01101001 01110000 00100000 </tspan>
+                    <tspan x="14" y="1191">01100101 01111000 00100000 01100101 </tspan>
+                    <tspan x="14" y="1213">01100001 00100000 01100011 01101111 </tspan>
+                    <tspan x="14" y="1235">01101101 01101101 01101111 01100100 </tspan>
+                    <tspan x="14" y="1257">01101111 00100000 01100011 01101111 </tspan>
+                    <tspan x="14" y="1279">01101110 01110011 01100101 01110001 </tspan>
+                    <tspan x="14" y="1301">01110101 01100001 01110100 00101110 </tspan>
+                    <tspan x="14" y="1323">00100000 01000100 01110101 01101001 </tspan>
+                    <tspan x="14" y="1345">01110011 00100000 01100001 01110101 </tspan>
+                    <tspan x="14" y="1367">01110100 01100101 00100000 01101001 </tspan>
+                    <tspan x="14" y="1389">01110010 01110101 01110010 01100101 </tspan>
+                    <tspan x="14" y="1411">00100000 01100100 01101111 01101100 </tspan>
+                    <tspan x="14" y="1433">01101111 01110010 00100000 01101001 </tspan>
+                    <tspan x="14" y="1455">01101110 00100000 01110010 01100101 </tspan>
+                    <tspan x="14" y="1477">01110000 01110010 01100101 01101000 </tspan>
+                    <tspan x="14" y="1499">01100101 01101110 01100100 01100101 </tspan>
+                    <tspan x="14" y="1521">01110010 01101001 01110100 00100000 </tspan>
+                    <tspan x="14" y="1543">01101001 01101110 00100000 01110110 </tspan>
+                    <tspan x="14" y="1565">01101111 01101100 01110101 01110000 </tspan>
+                    <tspan x="14" y="1587">01110100 01100001 01110100 01100101 </tspan>
+                    <tspan x="14" y="1609">00100000 01110110 01100101 01101100 </tspan>
+                    <tspan x="14" y="1631">01101001 01110100 00100000 01100101 </tspan>
+                    <tspan x="14" y="1653">01110011 01110011 01100101 00100000 </tspan>
+                    <tspan x="14" y="1675">01100011 01101001 01101100 01101100 </tspan>
+                    <tspan x="14" y="1697">01110101 01101101 00100000 01100100 </tspan>
+                    <tspan x="14" y="1719">01101111 01101100 01101111 01110010 </tspan>
+                    <tspan x="14" y="1741">01100101 00100000 01100101 01110101 </tspan>
+                    <tspan x="14" y="1763">00100000 01100110 01110101 01100111 </tspan>
+                    <tspan x="14" y="1785">01101001 01100001 01110100 00100000 </tspan>
+                    <tspan x="14" y="1807">01101110 01110101 01101100 01101100 </tspan>
+                    <tspan x="14" y="1829">01100001 00100000 01110000 01100001 </tspan>
+                    <tspan x="14" y="1851">01110010 01101001 01100001 01110100 </tspan>
+                    <tspan x="14" y="1873">01110101 01110010 00101110 00100000 </tspan>
+                    <tspan x="14" y="1895">01000101 01111000 01100011 01100101 </tspan>
+                    <tspan x="14" y="1917">01110000 01110100 01100101 01110101 </tspan>
+                    <tspan x="14" y="1939">01110010 00100000 01110011 01101001 </tspan>
+                    <tspan x="14" y="1961">01101110 01110100 00100000 01101111 </tspan>
+                    <tspan x="14" y="1983">01100011 01100011 01100001 01100101 </tspan>
+                    <tspan x="14" y="2005">01100011 01100001 01110100 00100000 </tspan>
+                    <tspan x="14" y="2027">01100011 01110101 01110000 01101001 </tspan>
+                    <tspan x="14" y="2049">01100100 01100001 01110100 01100001 </tspan>
+                    <tspan x="14" y="2071">01110100 00100000 01101110 01101111 </tspan>
+                    <tspan x="14" y="2093">01101110 00100000 01110000 01110010 </tspan>
+                    <tspan x="14" y="2115">01101111 01101001 01100100 01100101 </tspan>
+                    <tspan x="14" y="2137">01101110 01110100 00101100 00100000 </tspan>
+                    <tspan x="14" y="2159">01110011 01110101 01101110 01110100 </tspan>
+                    <tspan x="14" y="2181">00100000 01101001 01101110 00100000 </tspan>
+                    <tspan x="14" y="2203">01100011 01110101 01101100 01110000 </tspan>
+                    <tspan x="14" y="2225">01100001 00100000 01110001 01110101 </tspan>
+                    <tspan x="14" y="2247">01101001 00100000 01101111 01100110 </tspan>
+                    <tspan x="14" y="2269">01100110 01101001 01100011 01101001 </tspan>
+                    <tspan x="14" y="2291">01100001 00100000 01100100 01100101 </tspan>
+                    <tspan x="14" y="2313">01110011 01100101 01110010 01110101 </tspan>
+                    <tspan x="14" y="2335">01101110 01110100 00100000 01101101 </tspan>
+                    <tspan x="14" y="2357">01101111 01101100 01101100 01101001 </tspan>
+                    <tspan x="14" y="2379">01110100 00100000 01100001 01101110 </tspan>
+                    <tspan x="14" y="2401">01101001 01101101 00100000 01101001 </tspan>
+                    <tspan x="14" y="2423">01100100 00100000 01100101 01110011 </tspan>
+                    <tspan x="14" y="2445">01110100 00100000 01101100 01100001 </tspan>
+                    <tspan x="14" y="2467">01100010 01101111 01110010 01110101 </tspan>
+                    <tspan x="14" y="2489">01101101 00101110</tspan>
+                </text>
+            </g>
+            <g id="bin_doc" transform="translate(308.000000, 5036.000000)">
+                <g id="Rectangle">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="407" height="1301"></rect>
+                </g>
+                <text id="01001100-01101111-01" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="14" y="47">01001100 01101111 01110010 01100101 </tspan>
+                    <tspan x="14" y="69">01101101 00100000 01101001 01110000 </tspan>
+                    <tspan x="14" y="91">01110011 01110101 01101101 00100000 </tspan>
+                    <tspan x="14" y="113">01100100 01101111 01101100 01101111 </tspan>
+                    <tspan x="14" y="135">01110010 00100000 01110011 01101001 </tspan>
+                    <tspan x="14" y="157">01110100 00100000 01100001 01101101 </tspan>
+                    <tspan x="14" y="179">01100101 01110100 00101100 00100000 </tspan>
+                    <tspan x="14" y="201">01100011 01101111 01101110 01110011 </tspan>
+                    <tspan x="14" y="223">01100101 01100011 01110100 01100101 </tspan>
+                    <tspan x="14" y="245">01110100 01110101 01110010 00100000 </tspan>
+                    <tspan x="14" y="267">01100001 01100100 01101001 01110000 </tspan>
+                    <tspan x="14" y="289">01101001 01110011 01101001 01100011 </tspan>
+                    <tspan x="14" y="311">01101001 01101110 01100111 00100000 </tspan>
+                    <tspan x="14" y="333">01100101 01101100 01101001 01110100 </tspan>
+                    <tspan x="14" y="355">00101100 00100000 01110011 01100101 </tspan>
+                    <tspan x="14" y="377">01100100 00100000 01100100 01101111 </tspan>
+                    <tspan x="14" y="399">00100000 01100101 01101001 01110101 </tspan>
+                    <tspan x="14" y="421">01110011 01101101 01101111 01100100 </tspan>
+                    <tspan x="14" y="443">00100000 01110100 01100101 01101101 </tspan>
+                    <tspan x="14" y="465">01110000 01101111 01110010 00100000 </tspan>
+                    <tspan x="14" y="487">01101001 01101110 01100011 01101001 </tspan>
+                    <tspan x="14" y="509">01100100 01101001 01100100 01110101 </tspan>
+                    <tspan x="14" y="531">01101110 01110100 00100000 01110101 </tspan>
+                    <tspan x="14" y="553">01110100 00100000 01101100 01100001 </tspan>
+                    <tspan x="14" y="575">01100010 01101111 01110010 01100101 </tspan>
+                    <tspan x="14" y="597">00100000 01100101 01110100 00100000 </tspan>
+                    <tspan x="14" y="619">01100100 01101111 01101100 01101111 </tspan>
+                    <tspan x="14" y="641">01110010 01100101 00100000 01101101 </tspan>
+                    <tspan x="14" y="663">01100001 01100111 01101110 01100001 </tspan>
+                    <tspan x="14" y="685">00100000 01100001 01101100 01101001 </tspan>
+                    <tspan x="14" y="707">01110001 01110101 01100001 00101110 </tspan>
+                    <tspan x="14" y="729">00100000 01010101 01110100 00100000 </tspan>
+                    <tspan x="14" y="751">01100101 01101110 01101001 01101101 </tspan>
+                    <tspan x="14" y="773">00100000 01100001 01100100 00100000 </tspan>
+                    <tspan x="14" y="795">01101101 01101001 01101110 01101001 </tspan>
+                    <tspan x="14" y="817">01101101 00100000 01110110 01100101 </tspan>
+                    <tspan x="14" y="839">01101110 01101001 01100001 01101101 </tspan>
+                    <tspan x="14" y="861">00101100 00100000 01110001 01110101 </tspan>
+                    <tspan x="14" y="883">01101001 01110011 00100000 01101110 </tspan>
+                    <tspan x="14" y="905">01101111 01110011 01110100 01110010 </tspan>
+                    <tspan x="14" y="927">01110101 01100100 00100000 01100101 </tspan>
+                    <tspan x="14" y="949">01111000 01100101 01110010 01100011 </tspan>
+                    <tspan x="14" y="971">01101001 01110100 01100001 01110100 </tspan>
+                    <tspan x="14" y="993">01101001 01101111 01101110 00100000 </tspan>
+                    <tspan x="14" y="1015">01110101 01101100 01101100 01100001 </tspan>
+                    <tspan x="14" y="1037">01101101 01100011 01101111 00100000 </tspan>
+                    <tspan x="14" y="1059">01101100 01100001 01100010 01101111 </tspan>
+                    <tspan x="14" y="1081">01110010 01101001 01110011 00100000 </tspan>
+                    <tspan x="14" y="1103">01101110 01101001 01110011 01101001 </tspan>
+                    <tspan x="14" y="1125">00100000 01110101 01110100 00100000 </tspan>
+                    <tspan x="14" y="1147">01100001 01101100 01101001 01110001 </tspan>
+                    <tspan x="14" y="1169">01110101 01101001 01110000 00100000 </tspan>
+                    <tspan x="14" y="1191">01100101 01111000 00100000 01100101 </tspan>
+                </text>
+            </g>
+            <text id="~Animation~" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                <tspan x="407" y="639">~Animation~</tspan>
+            </text>
+            <text id="~Animation~" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                <tspan x="397" y="3422">~Animation~</tspan>
+            </text>
+            <g id="node" transform="translate(103.000000, 3561.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <text id="o" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="26">o</tspan>
+                </text>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+                <text id="53" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="9" y="66">53</tspan>
+                </text>
+            </g>
+            <g id="node-copy" transform="translate(173.000000, 3561.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <text id="a" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="26">a</tspan>
+                </text>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+                <text id="25" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="9" y="66">25</tspan>
+                </text>
+            </g>
+            <g id="node-copy-2" transform="translate(243.000000, 3561.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-8"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <text id="e" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="26">e</tspan>
+                </text>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+                <text id="37" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="9" y="66">37</tspan>
+                </text>
+            </g>
+            <g id="node-copy-3" transform="translate(313.000000, 3561.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-10"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <text id="r" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="26">r</tspan>
+                </text>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+                <text id="31" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="9" y="66">31</tspan>
+                </text>
+            </g>
+            <g id="node-copy-4" transform="translate(383.000000, 3561.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-12"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <text id="s" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="26">s</tspan>
+                </text>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-13"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+                <text id="45" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="9" y="66">45</tspan>
+                </text>
+            </g>
+            <g id="node-copy-5" transform="translate(453.000000, 3561.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-14"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <text id="t" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="26">t</tspan>
+                </text>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-15"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+                <text id="32" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="9" y="66">32</tspan>
+                </text>
+            </g>
+            <g id="node-copy-6" transform="translate(523.000000, 3561.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-16"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <text id="l" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="26">l</tspan>
+                </text>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-17"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+                <text id="11" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="9" y="66">11</tspan>
+                </text>
+            </g>
+            <g id="node-copy-7" transform="translate(593.000000, 3561.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-18"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <text id="o" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="26">o</tspan>
+                </text>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-19"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+                <text id="17" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="9" y="66">17</tspan>
+                </text>
+            </g>
+            <g id="node-copy-8" transform="translate(663.000000, 3561.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-20"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-21"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+                <text id="62" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="9" y="66">62</tspan>
+                </text>
+            </g>
+            <g id="node-copy-8" transform="translate(437.000000, 3758.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-22"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-23"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+            </g>
+            <g id="node-copy-9" transform="translate(733.000000, 3561.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-24"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <text id="L" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="26">L</tspan>
+                </text>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-25"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+                <text id="1" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="66">1</tspan>
+                </text>
+            </g>
+            <g id="node-copy-10" transform="translate(803.000000, 3561.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-26"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <text id="." font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="26">.</tspan>
+                </text>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-27"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+                <text id="5" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="9" y="66">5</tspan>
+                </text>
+            </g>
+            <path d="M143.5,3601 L170,3601" id="Line" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M170,3601 L159.2,3598 L159.2,3604 L170,3601 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path d="M213.5,3601 L240,3601" id="Line-Copy" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-Copy-decoration-1" d="M240,3601 L229.2,3598 L229.2,3604 L240,3601 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path d="M283.5,3601 L310,3601" id="Line-Copy-2" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-Copy-2-decoration-1" d="M310,3601 L299.2,3598 L299.2,3604 L310,3601 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path d="M353.5,3601 L380,3601" id="Line-Copy-3" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-Copy-3-decoration-1" d="M380,3601 L369.2,3598 L369.2,3604 L380,3601 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path d="M423.5,3601 L450,3601" id="Line-Copy-4" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-Copy-4-decoration-1" d="M450,3601 L439.2,3598 L439.2,3604 L450,3601 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path d="M493.5,3601 L520,3601" id="Line-Copy-5" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-Copy-5-decoration-1" d="M520,3601 L509.2,3598 L509.2,3604 L520,3601 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path d="M563.5,3601 L590,3601" id="Line-Copy-6" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-Copy-6-decoration-1" d="M590,3601 L579.2,3598 L579.2,3604 L590,3601 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path d="M633.5,3601 L660,3601" id="Line-Copy-7" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-Copy-7-decoration-1" d="M660,3601 L649.2,3598 L649.2,3604 L660,3601 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path d="M703.5,3601 L730,3601" id="Line-Copy-8" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-Copy-8-decoration-1" d="M730,3601 L719.2,3598 L719.2,3604 L730,3601 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path d="M773.5,3601 L800,3601" id="Line-Copy-9" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-Copy-9-decoration-1" d="M800,3601 L789.2,3598 L789.2,3604 L800,3601 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <g id="node" transform="translate(14.000000, 4249.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-28"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <text id="o" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="26">o</tspan>
+                </text>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-29"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+                <text id="53" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="9" y="66">53</tspan>
+                </text>
+            </g>
+            <g id="node-copy" transform="translate(258.000000, 4437.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-30"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <text id="a" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="26">a</tspan>
+                </text>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-31"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+                <text id="25" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="9" y="66">25</tspan>
+                </text>
+            </g>
+            <g id="node-copy-2" transform="translate(503.000000, 4612.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-32"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <text id="e" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="26">e</tspan>
+                </text>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-33"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+                <text id="37" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="9" y="66">37</tspan>
+                </text>
+            </g>
+            <g id="node-copy-3" transform="translate(343.000000, 4073.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-34"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <text id="r" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="26">r</tspan>
+                </text>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-35"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+                <text id="31" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="9" y="66">31</tspan>
+                </text>
+            </g>
+            <g id="node-copy-4" transform="translate(124.000000, 4437.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-36"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <text id="s" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="26">s</tspan>
+                </text>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-37"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+                <text id="45" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="9" y="66">45</tspan>
+                </text>
+            </g>
+            <g id="node-copy-5" transform="translate(674.000000, 4428.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-38"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <text id="t" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="26">t</tspan>
+                </text>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-39"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+                <text id="32" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="9" y="66">32</tspan>
+                </text>
+            </g>
+            <g id="node-copy-6" transform="translate(289.000000, 4611.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-40"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <text id="l" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="26">l</tspan>
+                </text>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-41"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+                <text id="11" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="9" y="66">11</tspan>
+                </text>
+            </g>
+            <g id="node-copy-7" transform="translate(942.000000, 4609.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-42"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <text id="o" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="26">o</tspan>
+                </text>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-43"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+                <text id="17" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="9" y="66">17</tspan>
+                </text>
+            </g>
+            <g id="node-copy-8" transform="translate(451.000000, 4066.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-44"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-45"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+                <text id="62" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="9" y="66">62</tspan>
+                </text>
+            </g>
+            <g id="node-copy-9" transform="translate(877.000000, 4787.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-46"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <text id="L" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="26">L</tspan>
+                </text>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-47"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+                <text id="1" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="66">1</tspan>
+                </text>
+            </g>
+            <g id="node-copy-10" transform="translate(660.000000, 4782.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-48"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <text id="." font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="26">.</tspan>
+                </text>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-49"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+                <text id="5" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="9" y="66">5</tspan>
+                </text>
+            </g>
+            <path d="M255,3891 L439,3839" id="Line" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M439,3839 L427.791187,3839.05021 L429.422929,3844.82406 L439,3839 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path d="M581.5,3884 L480,3840" id="Line-Copy-7" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-Copy-7-decoration-1" d="M480,3840 L488.715804,3847.04803 L491.10221,3841.54303 L480,3840 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <g id="node-copy-8" transform="translate(563.000000, 3885.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-50"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-51"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+            </g>
+            <path d="M473,4062 L565,3966" id="Line" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M565,3966 L555.361457,3971.72176 L559.693387,3975.87319 L565,3966 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path d="M690,4066 L606,3967" id="Line-Copy-7" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-Copy-7-decoration-1" d="M606,3967 L610.699829,3977.17603 L615.274884,3973.29417 L606,3967 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <g id="node-copy-8" transform="translate(619.000000, 4437.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-52"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-53"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+                <text id="62" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="9" y="66">62</tspan>
+                </text>
+            </g>
+            <g id="node-copy-8" transform="translate(675.000000, 4066.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-54"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-55"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+            </g>
+            <path d="M539,4252 L677,4147" id="Line" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M677,4147 L666.588485,4151.15215 L670.221616,4155.92712 L677,4147 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path d="M802,4247 L718,4148" id="Line-Copy-7" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-Copy-7-decoration-1" d="M718,4148 L722.699829,4158.17603 L727.274884,4154.29417 L718,4148 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <g id="node-copy-8" transform="translate(512.000000, 4256.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-56"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-57"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+            </g>
+            <path d="M422,4433 L514,4337" id="Line" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M514,4337 L504.361457,4342.72176 L508.693387,4346.87319 L514,4337 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path d="M639,4437 L555,4338" id="Line-Copy-7" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-Copy-7-decoration-1" d="M555,4338 L559.699829,4348.17603 L564.274884,4344.29417 L555,4338 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <g id="node-copy-8" transform="translate(399.000000, 4434.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-58"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-59"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+            </g>
+            <path d="M309,4611 L401,4515" id="Line" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M401,4515 L391.361457,4520.72176 L395.693387,4524.87319 L401,4515 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path d="M526,4615 L442,4516" id="Line-Copy-7" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-Copy-7-decoration-1" d="M442,4516 L446.699829,4526.17603 L451.274884,4522.29417 L442,4516 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <text id="~Animation~" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                <tspan x="402" y="3712">~Animation~</tspan>
+            </text>
+            <g id="node-copy-8" transform="translate(877.000000, 4428.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-60"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-61"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+            </g>
+            <path d="M787,4605 L879,4509" id="Line" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M879,4509 L869.361457,4514.72176 L873.693387,4518.87319 L879,4509 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path d="M959,4606 L920,4510" id="Line-Copy-7" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-Copy-7-decoration-1" d="M920,4510 L921.285472,4521.13497 L926.844272,4518.87671 L920,4510 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <g id="node-copy-8" transform="translate(786.000000, 4247.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-62"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-63"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+            </g>
+            <path d="M696,4424 L788,4328" id="Line" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M788,4328 L778.361457,4333.72176 L782.693387,4337.87319 L788,4328 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path d="M900,4428 L829,4329" id="Line-Copy-7" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-Copy-7-decoration-1" d="M829,4329 L832.856264,4339.5247 L837.732001,4336.02796 L829,4329 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <g id="node-copy-8" transform="translate(770.000000, 4605.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-64"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-65"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+            </g>
+            <path d="M680,4782 L772,4686" id="Line" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M772,4686 L762.361457,4691.72176 L766.693387,4695.87319 L772,4686 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path d="M897,4786 L813,4687" id="Line-Copy-7" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-Copy-7-decoration-1" d="M813,4687 L817.699829,4697.17603 L822.274884,4693.29417 L813,4687 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <g id="node-copy-8" transform="translate(234.000000, 3892.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-66"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-67"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+            </g>
+            <path d="M144,4069 L236,3973" id="Line" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M236,3973 L226.361457,3978.72176 L230.693387,3982.87319 L236,3973 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path d="M361,4073 L277,3974" id="Line-Copy-7" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-Copy-7-decoration-1" d="M277,3974 L281.699829,3984.17603 L286.274884,3980.29417 L277,3974 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <g id="node-copy-8" transform="translate(124.000000, 4069.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-68"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-69"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+            </g>
+            <path d="M34,4246 L126,4150" id="Line" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M126,4150 L116.361457,4155.72176 L120.693387,4159.87319 L126,4150 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path d="M215,4244 L167,4151" id="Line-Copy-7" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-Copy-7-decoration-1" d="M167,4151 L169.287482,4161.97303 L174.619206,4159.22117 L167,4151 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <g id="node-copy-8" transform="translate(193.000000, 4246.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-70"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="39" height="39"></rect>
+                </g>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-71"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="40.5" width="39" height="39"></rect>
+                </g>
+            </g>
+            <path d="M145,4434 L195,4327" id="Line" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M195,4327 L187.709931,4335.51439 L193.145732,4338.05449 L195,4327 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path d="M277,4468 L235,4357" id="Line-Copy-7" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <path id="Line-Copy-7-decoration-1" d="M235,4357 L236.016176,4368.16277 L241.627893,4366.03942 L235,4357 Z" stroke="#000000" stroke-width="2" fill="#000000" stroke-linecap="square"></path>
+            <text id="~Animation~" font-family="FiraCode-Regular, Fira Code" font-size="18" font-weight="normal" fill="#000000">
+                <tspan x="453" y="4981">~Animation~</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
