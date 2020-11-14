@@ -51,8 +51,8 @@
       <div class="title">Visualizing Huffman Compression</div>
       
       
-      <p>The following are some visualizations I created to explore the d3js library and how <a href="https://en.wikipedia.org/wiki/Huffman_coding">Huffman compression</a> works.</p>
-      <p>For the sake of simplicity, we'll use ASCII-encoded text as the subject of our compression.</p>
+      <p>The following are some visualizations we created to explore the d3js library and show how <a href="https://en.wikipedia.org/wiki/Huffman_coding">Huffman compression</a> works.</p>
+      <p>For the sake of simplicity, we used ASCII-encoded text as the subject of our compression.</p>
       <ol>
         <li>
           <p><a href="#freq-table">Creating a Frequency Table</a></p>
@@ -84,7 +84,7 @@
 
       <h1 id="huff-tree"><span>2</span> Building the Huffman Tree</h1>
       <p>
-        Next we need to construct our binary tree from our frequency table. From Wikipedia:
+        Next,we need to construct our binary tree from our frequency table. From Wikipedia:
       </p>
       <ol>
         <li><p>Create a leaf node for each symbol and add it to the priority queue.</p></li>
@@ -135,7 +135,7 @@
       </div>
       <h1 id="results"><span>4</span> Results</h1>
       <p>
-        Now we'll encode our document with both both ASCII and our Huffman code to see how efficient our compression is. Included in the top of the Huffman document is the header, which simply lists each symbol along with its 4-byte frequency value. This overhead cost will be included in our calculation.
+        Now, we'll encode our document with both both ASCII and our Huffman code to see how efficient our compression is. Included in the top of the Huffman document is the header, which simply lists each symbol along with its 4-byte frequency value. This overhead cost will be included in our calculation.
       </p>
       <div class="tri-doc-vis">
         <div class="three-docs-view">
