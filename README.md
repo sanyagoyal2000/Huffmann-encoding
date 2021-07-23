@@ -1,4 +1,5 @@
 ## Huffman Coding Visualization
+https://sanyagoyal2000.github.io/Huffmann-encoding/
 
 ### Background
 
